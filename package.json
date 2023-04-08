@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "netlify-cli": "^13.2.2",
+    "netlify-lambda": "^2.0.16",
+    "nodemon": "^2.0.22",
+    "serverless-http": "^3.2.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "netlify deploy --prod"
+  },
+  "name": "mongo",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
